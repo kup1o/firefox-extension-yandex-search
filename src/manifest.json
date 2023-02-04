@@ -1,19 +1,19 @@
 {
   "manifest_version": 2,
-  "name": "Yandex search",
+  "name": "Yandex Search",
   "short_name": "yandex_search",
   "description": "Adds Yandex search as a search engine.",
   "version": "1",
   "icons": {
-    "16": "icons/yandex.svg",
-    "64": "icons/yandex.svg",
-    "256": "icons/yandex.svg"
+    "16": "icons/yandex.png",
+    "64": "icons/yandex.png",
+    "256": "icons/yandex.png"
   },
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "Yandex search",
+      "name": "Yandex",
       "keyword": "@y",
-      "favicon_url": "https://cdn.search.yandex.com/serp/v1/static/brand/9b3cd14668935362449eebb1854f575091a1169bf51aba6a8c17b39f64a9d07e-favicon-16x16.png",
+      "favicon_url": "icons/yandex.png",
       "search_url": "https://yandex.ru/search/?text={searchTerms}"
     }
   },
